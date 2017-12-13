@@ -1,0 +1,65 @@
+
+            body {
+                direction:rtl;
+            }
+                
+            .tapir1{;}
+            .tapir2{;}
+            .tapir3{;}
+            
+                /*mobile*/
+            [class*="col-"]  
+            {width=100%;}
+            
+                /*tablets*/
+            @media only screen and (min-width:600px){
+                .col-m-1 {width:8.33%}
+                .col-m-2 {width:16.66%}
+                .col-m-3 {width:25%}
+                .col-m-4 {width:33.33%}
+                .col-m-5 {width:41.66%}
+                .col-m-6 {width:50%}
+                .col-m-7 {width:58.33%}
+                .col-m-8 {width:66.66%}
+                .col-m-9 {width:75%}
+                .col-m-10 {width:83.33%}
+                .col-m-11 {width:91.66%}
+                .col-m-12 {width:100%}
+                .tapir1 {}
+                .tapir2 {}
+                .tapir3 {}
+            }    
+                /*desktop*/
+           @media only screen and (min-width:768px)
+           {
+                .col-1 {width:8.33%}
+                .col-2 {width:16.66%}
+                .col-3 {width:25%}
+                .col-4 {width:33.33%}
+                .col-5 {width:41.66%}
+                .col-6 {width:50%}
+                .col-7 {width:58.33%}
+                .col-8 {width:66.66%}
+                .col-9 {width:75%}
+                .col-10 {width:83.33%}
+                .col-11 {width:91.66%}
+                .col-12 {width:100%}
+               .tapir1 {;}
+                .tapir2 {;}
+                .tapir3 {;}
+            }  
+            
+            .paris {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a1dbff+0,cbebff+53,f0f9ff+100 */
+background: #a1dbff; /* Old browsers */
+background: -moz-linear-gradient(top, #a1dbff 0%, #cbebff 53%, #f0f9ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a1dbff 0%,#cbebff 53%,#f0f9ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-9 */}
+
+            .footer {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100 */
+background: rgb(69,72,77); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
